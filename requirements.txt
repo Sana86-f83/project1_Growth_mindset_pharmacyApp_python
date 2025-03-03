@@ -1,0 +1,5 @@
+streamlit
+sqlite3  # Built-in in Python, no need to add this
+pandas
+plotly
+reportlab
