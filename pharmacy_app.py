@@ -19,6 +19,11 @@ st.set_page_config(
 # Add this enhanced CSS at the start of your file
 st.markdown("""
     <style>
+    /* Apply background color & text color */
+    html, body,label, [class*="stApp"] {
+        background-color: black !important;
+        color: white !important;
+    }
     /* Main theme with animations */
     @keyframes gradientBG {
         0% { background-position: 0% 50% }
